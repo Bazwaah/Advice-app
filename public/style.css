@@ -1,0 +1,107 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: url("https://images.unsplash.com/photo-1503676260728-1c00da094a0b")
+    no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Advice container */
+.advice-container {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+  max-width: 600px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Advice text */
+.advice-text {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+/* Button styling */
+.advice-button {
+  background-color: #ff9800;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.advice-button:hover {
+  background-color: #e68900;
+}
+
+/* Message styling */
+p {
+  font-size: 1rem;
+  color: #ccc;
+}
+
+/*
+style.css body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4; // Optional: light neutral 
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 8px;
+}
+
+// Advice container 
+.advice-container {
+  background: #333;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+// Advice text 
+.advice-text {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+// Button styling 
+.advice-button {
+  background-color: #ff9800;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.advice-button:hover {
+  background-color: #e68900;
+}
+
+// Message styling 
+p {
+  font-size: 1rem;
+  color: #ccc;
+}
+*/
